@@ -1,10 +1,12 @@
+# SWYNEX AI Student Doubt Classifier
+
 ## SWYNEX Technologies - Artificial Intelligence Internship
 
 ### Task 1: AI Problem Design
 
 This project is part of my Artificial Intelligence Internship at SWYNEX Technologies.
 
-## Project Overview
+## 1. Project Overview
 
 The AI Student Doubt Classifier is a proposed AI system that automatically identifies the category of a student's question.
 
@@ -12,7 +14,7 @@ Students may have questions related to programming, data structures, databases, 
 
 The proposed system uses AI-based text classification to automatically categorize these questions.
 
-## Problem
+## 2. Problem Statement
 
 Students ask questions from different technical and academic subjects.
 
@@ -20,11 +22,13 @@ The problem is:
 
 > How can we automatically classify a student's question into the correct subject category?
 
-## Proposed Solution
+An AI-based classification system can help organize these questions automatically.
 
-The system receives a student's question as text and predicts its category.
+## 3. Proposed AI Solution
 
-### Example
+The system receives a student's question as text and predicts the most appropriate category.
+
+### Example 1
 
 **Input:**
 
@@ -34,66 +38,77 @@ The system receives a student's question as text and predicts its category.
 
 Data Structures
 
-## Categories
+### Example 2
 
-- Programming
-- Data Structures
-- Database
-- Mathematics
-- AI/ML
-- Other
+**Input:**
 
-## Target Users
+"What is supervised learning in machine learning?"
+
+**Predicted Category:**
+
+AI/ML
+
+### Example 3
+
+**Input:**
+
+"What is a primary key in SQL?"
+
+**Predicted Category:**
+
+Database
+
+## 4. AI Use Case
+
+This project is a **text classification** problem.
+
+The AI system analyzes the text of a student's question and assigns it to one of the predefined categories.
+
+## 5. Categories
+
+The initial system will use these categories:
+
+1. Programming
+2. Data Structures
+3. Database
+4. Mathematics
+5. AI/ML
+6. Other
+
+## 6. Target Users
+
+The main users of this system are:
 
 - College students
 - Teachers
 - Academic support teams
 - Online learning platforms
 
-## Data
+## 7. Data Source
 
-A small dataset of student questions will be created.
+A small dataset of example student questions will be created for the initial prototype.
 
 Each record will contain:
 
-- Question
-- Category
+- Question text
+- Correct category
 
-## Success Criteria
+### Sample Dataset
 
-The initial target is at least **80% classification accuracy** on a test dataset.
+| Question | Category |
+|---|---|
+| What is a Python list? | Programming |
+| What is a binary tree? | Data Structures |
+| What is SQL? | Database |
+| What is a derivative? | Mathematics |
+| What is supervised learning? | AI/ML |
+| How do I install an application? | Other |
 
-Accuracy will be calculated using:
+## 8. Input
 
-`Accuracy = Correct Predictions / Total Predictions × 100`
+The system will accept a student's question as text.
 
-## Constraints
+Example:
 
-- Small initial dataset
-- English language questions
-- Limited predefined categories
-- Unclear questions may be classified as "Other"
-- Some questions may belong to multiple subjects
-
-## Future Improvements
-
-- Support multiple languages
-- Add more categories
-- Add confidence scores
-- Handle ambiguous questions
-- Add automatic answers
-- Integrate with a student chatbot
-
-## Project Status
-
-**Task 1 - AI Problem Design: Completed**
-
-Future internship tasks will involve model/API integration and development of the final AI application.
-
-## Author
-
-**Velmurugan S**
-
-Artificial Intelligence Intern
-
-SWYNEX Technologies
+```text
+What is a primary key in SQL?
