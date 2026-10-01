@@ -1,5 +1,3 @@
-# SWYNEXAI-Problem-Design
-Task 1 - AI Problem Design for SWYNEX Artificial Intelligence Internship
 # SWYNEX AI Student Doubt Classifier
 
 ## SWYNEX Technologies - Artificial Intelligence Internship
